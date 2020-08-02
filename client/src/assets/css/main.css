@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+::placeholder {
+  color: #B3BFB8;
+}
+
+body {
+  font-family: "Roboto";
+  background: #f8f8f8;
+  min-width: 1000px;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.form {
+  width: 38%;
+  margin: 45px auto;
+  background: white;
+  padding: 25px 25px 35px 25px;
+  box-shadow: 0px 3px 10px #cccccc;
+}
+
+.form h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 15px;
+  text-align: center;
+  color: #A2E3C4;
+}
+
+.input-container {
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  color: #7E8D85;
+  border: none;
+}
+
+.icon {
+  padding: 10px;
+  text-align: center;
+  color: #7E8D85;
+  min-width: 45px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #A2E3C4;
+  border: none;
+  color: #3C493F;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
